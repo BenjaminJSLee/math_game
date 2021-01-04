@@ -3,7 +3,7 @@ class Player
   attr_reader :id
 
   def initialize(id)
-    self.id = id
+    @id = id
     self.lives = 3
   end
 
